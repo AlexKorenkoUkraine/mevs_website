@@ -74,3 +74,32 @@ a{
 .navlinks a:hover{
     color:orange;
 }
+.title{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top:35px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    padding-bottom:25px;
+}
+.imgcontentpc img{
+    width:200px;
+    height:200px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+.contentpc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:45px;
+}
+.textpc{
+    color:#1f2937;
+    font-size:18px;
+    text-align: center;
+    width:200px;
+    min-height:100px;
+}
