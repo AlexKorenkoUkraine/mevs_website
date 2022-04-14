@@ -176,3 +176,14 @@ a{
 .signupbutton a:hover{
     color:#3882F6;
 }
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    height:100px;
+    background-color: #1f2937;
+}
+.footer a{
+    padding-left: 6px;
+}
