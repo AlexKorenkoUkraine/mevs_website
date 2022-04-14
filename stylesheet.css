@@ -184,6 +184,10 @@ a{
     height:100px;
     background-color: #1f2937;
 }
-.footer a{
+.footerhover{
     padding-left: 6px;
+    padding-top: 4px;
+}
+.footerhover:hover{
+    color:orange;
 }
