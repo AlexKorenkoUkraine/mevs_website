@@ -1,6 +1,6 @@
 body{
     display:flex;
-    align-items: column;
+    flex-direction: column;
     margin:0;
     padding:0;
 }
@@ -16,13 +16,13 @@ a{
 }
 .header{
     display:flex;
-    width:100%;
+    width:auto;
     height:100px;
     background-color: #1f2937;
-    padding-left:15%;
-    padding-right:15%;
     justify-content: space-between;
     padding-top:15px;
+    padding-left:15%;
+    padding-right:15%;
 }
 .logo{
     color:#F9FAF8;
@@ -31,4 +31,46 @@ a{
 } 
 .navlinks{
     padding-top:15px;
+}
+.contentsign{
+    display:flex;
+    background-color: #1f2937;
+    width:auto;
+    height:450px;
+    justify-content:space-between;    
+    padding-left:15%;
+    padding-right:15%;
+}
+.img1{
+    width:auto;
+    height:400px;
+}
+.signup h1{
+    font-size:48px;
+    font-weight:bold;
+    color:#F9FAF8;
+}
+.signup h2{
+    color:#E5E7EB;
+    font-size:18px;
+    padding-bottom:25px;
+}
+.signup{
+    width:700px;
+    height:auto;
+}
+.button{
+    background-color:#3882F6;
+    border-radius:7px;
+    width:150px;
+    height:50px;
+    padding: 5px 20px;
+    color:#F9FAF8;
+    font-size:24px;
+}
+.button:hover{
+    background-color: orange;
+}
+.navlinks a:hover{
+    color:orange;
 }
