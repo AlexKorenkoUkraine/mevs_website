@@ -1,23 +1,24 @@
-body{
-    display:flex;
-    flex-direction: column;
+html{
     margin:0;
-    padding:0;
+    min-height:100%;
+}
+body{
+    margin:0;
 }
 ul{
     list-style-type: none;
     display:flex;
-    gap:35px;
+    gap:2.1875em;
 }
 a{
     text-decoration:none;
     color:#E5E7EB;
-    font-size:18px;
+    font-size:1.125em;
 }
 .header{
     display:flex;
     width:auto;
-    height:100px;
+    min-height:100px;
     background-color: #1f2937;
     justify-content: space-between;
     padding-top:15px;
@@ -26,7 +27,7 @@ a{
 }
 .logo{
     color:#F9FAF8;
-    font-size:24px;
+    font-size:1.5em;
 
 } 
 .navlinks{
@@ -34,25 +35,25 @@ a{
 }
 .contentsign{
     display:flex;
-    background-color: #1f2937;
-    width:auto;
-    height:450px;
-    justify-content:space-between;    
-    padding-left:15%;
-    padding-right:15%;
+    background-color: #1f2937;    
+    justify-content:center;
+    align-items: flex-start;  
+    flex-wrap:wrap;  
+    padding-bottom:2%;
 }
 .img1{
-    width:auto;
-    height:400px;
+    width:35vw;
+    min-width:350px;
+    padding-top:10px;
 }
 .signup h1{
-    font-size:48px;
+    font-size:3em;
     font-weight:bold;
     color:#F9FAF8;
 }
 .signup h2{
     color:#E5E7EB;
-    font-size:18px;
+    font-size:1.125em;
     padding-bottom:25px;
 }
 .signup{
@@ -79,7 +80,7 @@ a{
     justify-content: center;
     align-items:center;
     padding-top:35px;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: bold;
     color: #1f2937;
     padding-bottom:25px;
@@ -94,11 +95,12 @@ a{
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
     gap:45px;
 }
 .textpc{
     color:#1f2937;
-    font-size:24px;
+    font-size:1.5em;
     text-align: center;
     width:200px;
     min-height:100px;
@@ -112,18 +114,18 @@ a{
     padding-top:100px;
 }
 .textinfo{
-    font-size: 24px;
+    font-size: 1.5em;
     font-style:italic;
-    width:850px;
+    max-width:850px;
     color: #1f2937;
 }
 .textinfoo{
-    text-align:end;
-    width:850px;
+    max-width:850px;
     padding-bottom:100px;
     color:black;
-    font-size: 22px;  
-    font-weight: bold;  
+    font-size: 1.375em; 
+    font-weight: bold;
+    padding-left:35%;
 }
 .signupconteiner{
     display:flex;
@@ -143,14 +145,14 @@ a{
 }
 .textsignup h1{
     color:#F9FAF8;
-    font-size:24px;
+    font-size:1.5em;
     padding-left: 100px;
     font-family: 'Times New Roman', Times, serif,sans-serif;
     font-weight: 900;
 }
 .textsignup h2{
     color:#E5E7EB;
-    font-size:20px;
+    font-size:1.25em;
     padding-left: 100px;
     margin-top:-7px;
     font-family: 'Times New Roman', Times, serif,sans-serif;
